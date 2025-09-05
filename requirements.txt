@@ -1,0 +1,53 @@
+# FastAPI & Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+jinja2==3.1.2
+python-multipart==0.0.6
+
+# Telegram & Pyrogram
+pyrogram==2.0.106
+tgcrypto==1.2.5
+python-telegram-bot==20.7
+
+# Database & MongoDB
+motor==3.3.2
+pymongo==4.6.0
+dnspython==2.4.2
+
+# HTTP & Networking
+aiohttp==3.9.1
+httpx==0.25.2
+requests==2.31.0
+
+# Cryptography & Security
+pycryptodome==3.19.0
+cryptography==41.0.7
+python-jose==3.3.0
+
+# Utilities & Processing
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+humanize==4.8.0
+python-dateutil==2.8.2
+
+# Async & Performance
+aiofiles==23.2.1
+asyncio==3.4.3
+uvloop==0.19.0
+
+# Template & Frontend
+jinja2==3.1.2
+markupsafe==2.1.3
+beautifulsoup4==4.12.2
+
+# Time & Date Management
+pytz==2023.3.post1
+tzdata==2023.4
+zoneinfo==0.2.1
+
+# Additional Utilities
+loguru==0.7.2
+colorama==0.4.6
+progress==1.6
+python-magic==0.4.27
