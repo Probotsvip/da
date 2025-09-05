@@ -44,7 +44,6 @@ beautifulsoup4==4.12.2
 # Time & Date Management
 pytz==2023.3.post1
 tzdata==2023.4
-zoneinfo==0.2.1
 
 # Additional Utilities
 loguru==0.7.2
