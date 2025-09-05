@@ -35,7 +35,7 @@ logger = logging.getLogger("yt_api")
 # -------------------
 # Config (from env) - NO HARDCODED CREDENTIALS
 # -------------------
-API_ID = int(os.getenv(""))
+API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CACHE_CHANNEL_ID = int(os.getenv("CACHE_CHANNEL_ID"))
