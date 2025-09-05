@@ -35,7 +35,7 @@ logger = logging.getLogger("yt_api")
 # -------------------
 # Config (from env) - NO HARDCODED CREDENTIALS
 # -------------------
-API_ID = int(os.getenv("API_ID"))
+API_ID = int(os.getenv(""))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CACHE_CHANNEL_ID = int(os.getenv("CACHE_CHANNEL_ID"))
@@ -45,7 +45,7 @@ DEFAULT_VIDEO_QUALITY = os.getenv("DEFAULT_VIDEO_QUALITY", "720")
 DEFAULT_AUDIO_QUALITY = os.getenv("DEFAULT_AUDIO_QUALITY", "320")
 DOWNLOAD_DIR = os.getenv("DOWNLOAD_DIR", "./downloads")
 SAVETUBE_BASE = "https://media.savetube.me"
-WEBSITE_URL = os.getenv("WEBSITE_URL", "http://localhost:8000")
+WEBSITE_URL = os.getenv("WEBSITE_URL", "https://chacheapi-21117ae61e3f.herokuapp.com")
 
 # Validate required environment variables
 if not all([API_ID, API_HASH, BOT_TOKEN, CACHE_CHANNEL_ID, MONGO_DB_URI, ADMIN_SECRET]):
